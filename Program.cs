@@ -1,15 +1,40 @@
 ﻿// ****** Main *******//
 
-System.Console.WriteLine("Welcome to my timer, where we count down from 24 hours to 0 as fast as possible");
-System.Console.WriteLine("Press enter to continue...");
-Console.ReadLine();
+string userInput = GetMenuChoice();
 
-for(int i = 24; i >= 0; i--){
-    for(int j = 60; j >= 0; j--){
-        System.Console.WriteLine($"Hour: {i} Minute: {j}");
+while(userInput != "3"){
+    if(userInput == "1"){
+        SayHello();
+    } else if(userInput == "2"){
+        int sum = Sum(2, 2);
+        System.Console.WriteLine($"2 + 2 is {sum}");
+    }else if(userInput == "3"){
+        System.Console.WriteLine("Bye!!!");
+    } else{
+        System.Console.WriteLine("Wrong input!!!, please try again");
     }
+
+    userInput = GetMenuChoice();
 }
 
-System.Console.WriteLine("Thank you!");
-
 // ****** End Main *******//
+
+static string GetMenuChoice(){
+    DisplayMenu();
+    return Console.ReadLine();
+}
+
+static void DisplayMenu(){
+    System.Console.WriteLine("1. Say Hello");
+    System.Console.WriteLine("2. Add 2 + 2");
+    System.Console.WriteLine("3. Exit");
+}
+
+static void SayHello(){
+    System.Console.WriteLine("Hello There!!!!!");
+}
+
+static int Sum(int x, int y){
+    int sum = x + y;
+    return sum;
+}
