@@ -1,0 +1,15 @@
+/home/chase/Projects/221/lab_examples/lab-4-clock/bin/Debug/net7.0/lab-4-clock
+/home/chase/Projects/221/lab_examples/lab-4-clock/bin/Debug/net7.0/lab-4-clock.deps.json
+/home/chase/Projects/221/lab_examples/lab-4-clock/bin/Debug/net7.0/lab-4-clock.runtimeconfig.json
+/home/chase/Projects/221/lab_examples/lab-4-clock/bin/Debug/net7.0/lab-4-clock.dll
+/home/chase/Projects/221/lab_examples/lab-4-clock/bin/Debug/net7.0/lab-4-clock.pdb
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.csproj.AssemblyReference.cache
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.GeneratedMSBuildEditorConfig.editorconfig
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.AssemblyInfoInputs.cache
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.AssemblyInfo.cs
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.csproj.CoreCompileInputs.cache
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.dll
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/refint/lab-4-clock.dll
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.pdb
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/lab-4-clock.genruntimeconfig.cache
+/home/chase/Projects/221/lab_examples/lab-4-clock/obj/Debug/net7.0/ref/lab-4-clock.dll
