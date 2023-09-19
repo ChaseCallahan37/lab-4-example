@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/chase/Projects/221/lab_examples/lab-4-clock/lab-4-clock.csproj",
+      "projectUniqueName": "/home/chase/Projects/221/lab_examples/lab-4-menu/lab-4-clock.csproj",
       "projectName": "lab-4-clock",
-      "projectPath": "/home/chase/Projects/221/lab_examples/lab-4-clock/lab-4-clock.csproj",
+      "projectPath": "/home/chase/Projects/221/lab_examples/lab-4-menu/lab-4-clock.csproj",
       "packagesPath": "/home/chase/.nuget/packages/",
-      "outputPath": "/home/chase/Projects/221/lab_examples/lab-4-clock/obj/",
+      "outputPath": "/home/chase/Projects/221/lab_examples/lab-4-menu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/chase/.nuget/NuGet/NuGet.Config"

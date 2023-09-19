@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lab_4_clock
-build_property.ProjectDir = /home/chase/Projects/221/lab_examples/lab-4-clock/
+build_property.ProjectDir = /home/chase/Projects/221/lab_examples/lab-4-menu/
