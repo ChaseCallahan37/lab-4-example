@@ -3,9 +3,9 @@
 string userInput = GetMenuChoice();
 
 if(userInput == "1"){
-    DisplayJoke();
+    DrawLogo();
 } else if(userInput == "2"){
-    DrawArt();
+    DrawRectangle();
 }else if(userInput == "3"){
     System.Console.WriteLine("Bye!!!");
 } else{
@@ -20,17 +20,12 @@ static string GetMenuChoice(){
 }
 
 static void DisplayMenu(){
-    System.Console.WriteLine("1. Display joke");
-    System.Console.WriteLine("2. Draw Picture");
+    System.Console.WriteLine("1. Draw Logo");
+    System.Console.WriteLine("2. Draw Rectangle");
     System.Console.WriteLine("3. Exit");
 }
 
-
-static void DisplayJoke(){
-    System.Console.WriteLine("Why can't a bicycle stand on its own? It's two-tired.");
-}
-
-static void DrawArt(){
+static void DrawLogo(){
     Console.WriteLine(@"                               .-=+**#%%%@@@@%%%##*+=-:                                 
                            .-+#%@@@@@@@@@@@@@@@@@@@@@@@@@@@#+-.                           
                        .=*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=:                       
@@ -79,7 +74,12 @@ static void DrawArt(){
 ");
 }
 
-static void DisplayMath(int answer){
-    System.Console.WriteLine("2 + 2 is " + answer);
+static void DrawRectangle(){
+    for(int i = 2; i > 0; i--){
+      for(int j = 5; j > 0; j--){
+        System.Console.Write("*");
+      }
+      System.Console.WriteLine();
+    }
 }
 
